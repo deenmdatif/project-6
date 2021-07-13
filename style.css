@@ -53,11 +53,90 @@ body {
 }
 
 .btnHire {
-    clear: both;
-    background-color: crimson;
+    background-image: linear-gradient(45deg, #fc5296, rgb(242, 69, 104));
     padding: 10px 30px!important;
     text-decoration: none;
     color: white;
     font-weight: bolder;
     margin-left: 90px!important;
+}
+
+.biography {
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.latest-section {
+    padding-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.width-3 {
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+}
+
+.img-latest {
+    width: 100%;
+}
+
+.h1Latest {
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+.clientSay {
+    text-align: center;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.clienth1 {
+    font-size: 50px;
+    padding: 40px 0px;
+    padding-top: 100px;
+}
+
+.client {
+    padding-bottom: 10px;
+}
+
+.founder {
+    color: #777;
+}
+
+.lorem {
+    width: 30%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.contact {
+    background-image: linear-gradient(45deg, #fc5296, rgb(242, 69, 104));
+    width: 600px;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.messageL {
+    padding: 25px 0px;
+}
+
+.gmail-class {
+    padding-bottom: 60px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
 }
